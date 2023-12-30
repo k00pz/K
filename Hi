@@ -1,0 +1,81 @@
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
+
+local UI = GUI:CreateWindow("Oppo 12k | Blade ball | ","Made by Fsploit")
+
+local Home = UI:addPage("Main",1,true,6)
+
+Home:addLabel("Blade ball","Auto parry section")
+
+Home:addButton("Auto parry",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))()
+ 
+end)
+
+Home:addButton("Spam button | broken |",function()
+   game.StarterGui:SetCore("SendNotification",{
+        Title = "Hey";
+        Text = "Its broken the devs are fixing it";
+    }) 
+end)
+
+Home:addButton("Pie X blade ball",function()
+    loadstring(game:HttpGet("https://pastefy.app/UEbnESuD/raw"))()
+end)
+
+Home:addLabel("Visual","Visual Section")
+
+Home:addButton("Esp pc/mobile",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Fsploitrady/main/Hi"))()
+end)
+
+Home:addLabel("Useful stuffs","Useful Section")
+
+Home:addButton("Invisible",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
+end)
+
+Home:addButton("Fly jump",function()
+   local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+    if InfiniteJumpEnabled then
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+    end
+end) 
+end)
+
+local Home = UI:addPage("Player settings",1,true,6)
+
+Home:addButton("Respawn",function()
+  game:GetService("ReplicatedStorage").Events.Respawn:FireServer()  
+end)
+
+Home:addButton("Fov 150",function()
+  local FovNumber = 150 --Enter your FOV number here
+local Camera = workspace.CurrentCamera
+Camera.FieldOfView = FovNumber  
+end)
+
+Home:addButton("walk speed 50",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+Home:addButton("jump power 50",function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+local Home = UI:addPage("Info",1,true,6)
+
+Home:addLabel("Fsploit","creator of Oppo 12k script")
+
+Home:addLabel("Blaze","Powers Oppo 12k script")
+
+Home:addLabel("Blaze","Creator of pie X hub")
+
+Home:addLabel("Next Update","1/25/24")
+
+Home:addLabel("Soon or be better","Hacks forever")
+
+game.StarterGui:SetCore("SendNotification",{
+        Title = "Hey";
+        Text = "Oppo 12k blade ball";
+    }) 
